@@ -10,7 +10,6 @@
 // console.log(10);
 
 // for loop //
-
 // for (let i = 1; i <= 10; i++) {
 //   console.log(i);
 // }
@@ -27,14 +26,50 @@
 //   console.log(j);
 // }
 
-
 // let k = 1
 // for(;k<=10;k++){
 //     console.log(k)
 // }
 
-
 // let l = 1
 // for(;l<=10;){
 //     console.log(l++)
 // }
+
+// for , while , do while
+
+// for in => Object
+// for of and iterables => array and iterable
+
+// while loop
+
+// let i = 0
+// while(i<10){
+//     console.log(i)
+//     i++
+// }
+
+// while(condition){
+//     //code
+//     // so-called loop body
+// }
+
+// do while loop
+// let i = 13
+// do {
+//     console.log(i)
+//     i++
+// }while(i<10)
+
+// do{
+//    // loop body
+// }while(condition)
+
+// task
+// let i = 5;
+
+// while (i) {
+//   console.log(i--);
+// }
+
+
