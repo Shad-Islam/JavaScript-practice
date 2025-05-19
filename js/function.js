@@ -1,18 +1,18 @@
 // let a = 10;
 // let b = 20;
-// // function declare
+// function declare
 // function showText() {
 //   console.log(a + b);
 //   console.log("Hello js");
 // }
-// // function call
+// function call
 // showText();
 
-// function addition( a, b){
-//     console.log(a+b)
+// function addition( abc, bcd){
+//     console.log(abc+bcd)
 // }
 
-// addition(10,20)
+// addition(909,20)
 
 // let text = prompt("What is ur name?");
 // function greetings(text) {
@@ -31,7 +31,7 @@
 //   name = "Abrar";
 //   console.log(name);
 // }
-
+// console.log(name);
 // showText();
 
 // outer variables
