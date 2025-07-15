@@ -67,6 +67,23 @@
 // }
 // addId(names);
 
+//seaching in array
+// let arr6 = ["a", "b", "c", "d", "e", "f", 100, 300, "a"];
 
+// console.log(arr6.indexOf("a"));
+// let indexNumber = arr6.indexOf("a");
+// console.log(arr6[indexNumber])
 
+// console.log(arr6.includes('g'));
 
+// console.log(arr6.lastIndexOf("a"))
+
+// sort
+
+// let arr7 = [44, 2, 46, 89, 200];
+// console.log(arr7.sort());
+
+// reverse
+// let arr8 = [1, 2, 3, 4, 5];
+// arr8.reverse();
+// console.log(arr8);
