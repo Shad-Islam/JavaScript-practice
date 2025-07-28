@@ -13,7 +13,9 @@
 // }
 
 // addition(909,20)
-
+showText();
+console.log(a + b);
+console.log("Hello js");
 // let text = prompt("What is ur name?");
 // function greetings(text) {
 //   console.log(`${text}`);
@@ -97,7 +99,7 @@
 // };
 // let func = sayHi
 // func()
-
+showText();
 
 // function callback
 // function ask(question, yes, no) {

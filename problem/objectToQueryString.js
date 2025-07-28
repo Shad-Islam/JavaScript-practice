@@ -12,8 +12,9 @@ function objectToQuearyString(obj) {
 }
 
 let obj = {
-  name: "John doe",
-  age: 40,
+  name: "Shad",
+  age: 26,
+  city: "Dhaka",
 };
 
 console.log(objectToQuearyString(obj));
