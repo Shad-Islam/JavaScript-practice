@@ -1,11 +1,11 @@
 // primitive data types//
 // string, number, boolean, null, undefined, bigint
-let name= "Alice"; 
-let age = 30;
-let isStudent = true;
-let phoneNumber = null;
-let bigNumber = 1234567890123456789012345678901234567890n;
-let address = undefined
+// let name= "Alice"; 
+// let age = 30;
+// let isStudent = true;
+// let phoneNumber = null;
+// let bigNumber = 1234567890123456789012345678901234567890n;
+// let address = undefined
 
 
 // let name2  // variable declaration
