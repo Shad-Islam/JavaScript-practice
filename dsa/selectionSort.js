@@ -6,7 +6,7 @@ function selectionSort(arr) {
   for (let i = 0; i < n - 1; i++) {
     let min = i;
 
-    for (let j = i + 1; j < n ; j++) {
+    for (let j = i + 1; j < n; j++) {
       if (arr[j] < arr[min]) {
         min = j;
       }
@@ -23,8 +23,6 @@ function selectionSort(arr) {
 
 console.log(selectionSort(array));
 
-
-
 // pass 1
 // [3        ,7,10,9,23,12,6]
 // pass 2
@@ -40,3 +38,27 @@ console.log(selectionSort(array));
 // pass 7
 // [3,6,7,9,10,12,23]
 
+
+
+// descending
+function selectionSortDescending(arr) {
+  let n = arr.length;
+
+  for (let i = 0; i < n - 1; i++) {
+    let maxIndix = i;
+
+    for (let j = i + 1; j < n; j++) {
+      if (arr[j] > arr[maxIndix]) {
+        maxIndix = j;
+      }
+    }
+
+    let temp = arr[i];
+    arr[i] = arr[maxIndix];
+    arr[maxIndix] = temp;
+  }
+
+  return arr;
+}
+
+console.log(selectionSortDescending([8, 3, 6, 133, 43, 0]));
