@@ -1,7 +1,7 @@
 console.log("Promise Example");
 
 const myPromise = new Promise((resolve, reject) => {
-  const success = false; // Change to false to test rejection
+  const success = true; // Change to false to test rejection
   setTimeout(() => {
     if (success) {
       resolve("Promise resolved successfully!");
@@ -10,9 +10,6 @@ const myPromise = new Promise((resolve, reject) => {
     }
   }, 2000);
 });
-
-
-
 
 
 myPromise
